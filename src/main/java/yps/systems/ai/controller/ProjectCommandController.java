@@ -15,6 +15,7 @@ import yps.systems.ai.repository.IProjectRepository;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "*", methods = {RequestMethod.POST, RequestMethod.GET})
 @RestController
 @RequestMapping("/projectService")
 public class ProjectCommandController {
